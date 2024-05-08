@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Type Ps : "
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <RadioGroup
+        android:id="@+id/radioGroupPs"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/rbp1"
+            android:layout_width="85dp"
+            android:layout_height="match_parent"
+            android:text="Ps 5"
+            android:textStyle="bold" />
+
+        <RadioButton
+            android:id="@+id/rbp2"
+            android:layout_width="85dp"
+            android:layout_height="match_parent"
+            android:text="Ps 4"
+            android:textStyle="bold" />
+
+        <RadioButton
+            android:id="@+id/rbp3"
+            android:layout_width="85dp"
+            android:layout_height="match_parent"
+            android:text="Ps 3"
+            android:textStyle="bold" />
+
+        <RadioButton
+            android:id="@+id/rbp4"
+            android:layout_width="85dp"
+            android:layout_height="match_parent"
+            android:text="Ps VR"
+            android:textStyle="bold" />
+
+    </RadioGroup>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="30dp"
+        android:text="Tambahan : "
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <RadioGroup
+        android:id="@+id/radioGroupTambahan"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/rbt1"
+            android:layout_width="124dp"
+            android:layout_height="match_parent"
+            android:text="Indomie"
+            android:textStyle="bold" />
+
+        <RadioButton
+            android:id="@+id/rbt2"
+            android:layout_width="130dp"
+            android:layout_height="match_parent"
+            android:text="Mie Ayam"
+            android:textStyle="bold" />
+
+        <RadioButton
+            android:id="@+id/rbt3"
+            android:layout_width="134dp"
+            android:layout_height="match_parent"
+            android:text="Siomay"
+            android:textStyle="bold" />
+    </RadioGroup>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Waktu:"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+<EditText
+    android:id="@+id/et1"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:inputType="number"
+    android:hint="Jam"/>
+
+    <Button
+        android:id="@+id/btn1"
+        android:layout_width="164dp"
+        android:layout_height="80dp"
+        android:layout_gravity="center"
+        android:text="Pesan"/>
+</LinearLayout>
